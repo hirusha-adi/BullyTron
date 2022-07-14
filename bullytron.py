@@ -1,4 +1,10 @@
 import clipboard
+import os
+from getpass import getuser
+
+
+def _cls():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 
 def change(sentence: str):
@@ -28,8 +34,10 @@ def change(sentence: str):
         'q': 'զ',
         'r': 'r',
         's': 'ʂ',
+        't': 't',
         'u': 'ս',
         'v': 'ν',
+        'w': 'w',
         'x': 'х',
         'y': 'у',
         'z': 'ʐ'
@@ -41,4 +49,19 @@ def change(sentence: str):
         final += letter
 
     clipboard.copy(final)
-    print('Copied \n', final, '\n\nTo Clipboard')
+    _cls()
+    print('Copied to Clipboard!')
+
+
+_cls()
+print(f'Welcome {getuser()}')
+while True:
+    print('''
+ __                        ___  __   __       
+|__) |  | |    |    \ /     |  |__) /  \ |\ | 
+|__) \__/ |___ |___  |      |  |  \ \__/ | \| v1
+          ~ Made by @hirusha-adi ~                              
+                
+    ''')
+    text = input('> ')
+    change(text)
