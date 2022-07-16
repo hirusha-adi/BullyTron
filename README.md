@@ -15,7 +15,7 @@ Replace lowercase english letters with lookalikes, making it undetectable for di
 5. Come back to discord
 6. Hit `CTRL+V` to paste the content copied into your clipboard by BullyTron
 
-![img3](https://cdn.discordapp.com/attachments/853817893744803840/997102737219141732/unknown.png)
+![image](https://user-images.githubusercontent.com/36286877/179348672-b67c6661-49b3-47f9-b752-27ead9fd1c8f.png)
 
 # Note
 I am **NOT** responsible for any damage, platform abuse, or bullying done with this tool. This tool is made for **education purposes only!** 
